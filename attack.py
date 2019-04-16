@@ -75,10 +75,10 @@ def dos2():
 
 
 def usage():
-	print (''' \033[92m	 DoS Script v.1 by thetermuxchoice
-	It is the end user's responsibility to obey all applicable laws.
-	It is just for server testing script. Your IP is visible. \n
-	usage : python3 attack.py [-s] [-p] [-t]
+	print (''' \033[92m	DoS Script v.1 by thetermuxchoice
+	Gmail  : Henrycko.Developer@gmail.com
+	GitHub : https://github.com/thetermuxchoice\n
+	Usage  : python3 attack.py [-s] [-p] [-t]
 	-h : Help
 	-s : Server IP
 	-p : Port number
