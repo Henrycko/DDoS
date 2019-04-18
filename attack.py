@@ -74,19 +74,14 @@ def dos2():
 		w.task_done()
 
 
-def banner():
-
+def usage():
 	print "\e[1;77m	 ╔╦╗╔╦╗┌─┐╔═╗ \e[0m\n"
 	print "\e[1;77m   ║║ ║║│ │╚═╗ \e[0m\n"
 	print "\e[1;77m  ═╩╝═╩╝└─┘╚═╝ v1.0 \e[0m\n"
 	
 	print "\n"
-	print "\e[1;93m :::\e[0m\e[1;77m Coded by: @thetermuxchoice\e[0m\n"
-
-
-def usage():
-	print (''' \033[92m	Hammer DoS by by Can Yalçın	
-	Gmail  : Henrycko.Developer@gmail.com
+	(''' \e[1;93m :::\e[0m\e[1;77m        Coded by: @thetermuxchoice\e[0m\n"
+        Gmail  : Henrycko.Developer@gmail.com
 	GitHub : https://github.com/thetermuxchoice\n
 	Usage  : python3 attack.py [-s] [-p] [-t]
 	-h : Help
