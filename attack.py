@@ -74,7 +74,7 @@ def dos2():
 		w.task_done()
 
 
-banner():
+def banner():
 
 	print "\e[1;77m	 ╔╦╗╔╦╗┌─┐╔═╗ \e[0m\n"
 	print "\e[1;77m   ║║ ║║│ │╚═╗ \e[0m\n"
