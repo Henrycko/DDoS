@@ -75,15 +75,13 @@ def dos2():
 
 
 def usage():
-	print "\e[1;93m  ____  ____       ____ \e[0m
-	print "\e[1;93m |  _ \|  _ \  ___/ ___| \e[0m
-	print "\e[1;93m | | | | | | |/ _ \___ \ \e[0m
-	print "\e[1;93m | |_| | |_| | (_) |__) | \e[0m
-	print "\e[1;93m |____/|____/ \___/____/ v1.0 \e[0m\n"
-	print "
-	print "\e[1;92m.::.\e[0m\e[1;77m	DDoS Tool by @thetermuxchoice \e[0m\e[1;92m.::.\e[0m\n\n"
-	
-	print (''' \033[92m	
+	print (''' \033[92m
+	 ____  ____       ____
+	|  _ \|  _ \  ___/ ___|
+	| | | | | | |/ _ \___ \
+	| |_| | |_| | (_) |__) |
+	|____/|____/ \___/____/ v1.0
+		
 	Coded by: @thetermuxchoice\e[0m\n"
 	GitHub : https://github.com/thetermuxchoice\n
 	Usage  : python3 attack.py [-s] [-p] [-t]
