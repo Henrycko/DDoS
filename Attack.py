@@ -80,10 +80,9 @@ def usage():
 	|  _ \|  _ \  ___/ ___|
 	| | | | | | |/ _ \___ \
 	| |_| | |_| | (_) |__) |
-	|____/|____/ \___/____/ v1.0
-		
-	Coded by: @thetermuxchoice\e[0m\n"
-	GitHub : https://github.com/thetermuxchoice\n
+	|____/|____/ \___/____/
+	Coded by: @thetermuxchoice
+	GitHub : https://github.com/thetermuxchoice
 	Usage  : python3 attack.py [-s] [-p] [-t]
 	-h : Help
 	-s : Server IP
