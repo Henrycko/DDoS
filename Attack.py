@@ -79,10 +79,10 @@ def usage():
 	╦  ┬ ┬┌─┐┬┌┬┐┌─┐  ╔╦╗╔╦╗┌─┐╔═╗
 	║  │ ││  │ │ ├─┤   ║║ ║║│ │╚═╗
 	╩═╝└─┘└─┘┴ ┴ ┴ ┴  ═╩╝═╩╝└─┘╚═╝v1.0
+	✓Only for legal purpose
 	Coded by @thetermuxchoice
-	Anonymous External Tools
-	Github: https://github.com/thetermuxchoice \n
-	Usage : python3 pukul.py [-s] [-p] [-t]	
+	Github: https://github.com/thetermuxchoice\n
+	Usage : python3 Attack.py [-s] [-p] [-t]	
 	-h : Help
 	-s : IP Address
 	-p : Port Number
