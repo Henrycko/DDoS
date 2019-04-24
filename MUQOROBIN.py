@@ -81,6 +81,7 @@ def usage():
 	╩═╝└─┘└─┘┴ ┴ ┴ ┴  ═╩╝═╩╝└─┘╚═╝v1.0
 	✓Only for legal purpose
 	Coded by @thetermuxchoice
+        Kami banggakan sekolah MUQOROBIN kekekeek
 	Github: https://github.com/thetermuxchoice\n
 	Usage : python3 Attack.py [-s] [-p] [-t]	
 	-h : Help
