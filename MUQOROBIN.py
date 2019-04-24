@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # python 3.3.2+ Hammer DoS Script v.1
-# by thetermuxchoice
+# by Henrycko
 # only for legal purpose
 
 
@@ -80,9 +80,9 @@ def usage():
 	║  │ ││  │ │ ├─┤   ║║ ║║│ │╚═╗
 	╩═╝└─┘└─┘┴ ┴ ┴ ┴  ═╩╝═╩╝└─┘╚═╝v1.0
 	✓Only for legal purpose
-	Coded by @thetermuxchoice
-        Kami banggakan sekolah MUQOROBIN kekekeek
-	Github: https://github.com/thetermuxchoice\n
+	Author by @Henrycko
+        Supporters by @Dzakira Alzena Daiva
+	Github: https://github.com/Henrycko\n
 	Usage : python3 Attack.py [-s] [-p] [-t]	
 	-h : Help
 	-s : IP Address
