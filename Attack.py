@@ -75,13 +75,12 @@ def dos2():
 
 
 def usage():
-	print (''' \033[92m	
+	print (''' \033[92m
 	╦  ┬ ┬┌─┐┬┌┬┐┌─┐  ╔╦╗╔╦╗┌─┐╔═╗
 	║  │ ││  │ │ ├─┤   ║║ ║║│ │╚═╗
 	╩═╝└─┘└─┘┴ ┴ ┴ ┴  ═╩╝═╩╝└─┘╚═╝v1.2
 	✓Only for legal purpose
 	Author by @Henrycko
-        Supporters by @Dzakira Alzena Daiva
 	Github: https://github.com/Henrycko\n
 	Usage : python3 Attack.py [-s] [-p] [-t]	
 	-h : HELP
