@@ -1,11 +1,6 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-# python 3.3.2+ Hammer DoS Script v.1
-# by Henrycko
-# only for legal purpose
-
-
 from queue import Queue
 from optparse import OptionParser
 import time,sys,socket,threading,logging,urllib.request,random
